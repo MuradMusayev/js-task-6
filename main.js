@@ -78,15 +78,14 @@
 // İstifadəçidən beş ədəd elementi daxil etməyi tələb edən, onları massilə yazan və ən kiçik ədədi konsola çıxaran proqram yazın.(Split)
 
 // let arr = prompt("", "5,3,4,7,1").split(",");
-// result = "";
-// for (let i = 0; i < arr.length; i++) {
-//   if (+arr[i] < +arr[i + 1]) {
-//     result += arr[i + 1];
-//   } else {
-//     result += arr[i];
+// result = arr[0];
+// console.log(arr);
+// for (let i = 1; i < arr.length; i++) {
+//   if (result > arr[i]) {
+//     result = arr[i];
 //   }
-//   console.log(result);
 // }
+// console.log(result);
 
 // Task-05
 // Verilən mətn tip dəyərdəki vergülləri nöqtəli vergüllə əvəz edin.(split,join)(replaceAll(",",";"))
